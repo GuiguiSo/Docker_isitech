@@ -1,0 +1,31 @@
+Docker : 
+
+
+Run un container : docker container run --publish [PORT] 80:80 [SERVERWEB] --name(Donne un nom au container) --detach(Permet de demarrer un processus en fond) -it(permer de rentrer et utilisé la mahcine crée immédiatement)
+
+
+stop un container : docker container stop [IDCONTAINER] 
+Voir les container en etat de run : docker ps
+Voir l'etat de tout les containers : docker ps -a
+voir les images installé sur la machine : docker images
+Supprimer une image : rmi [IDIMAGE]
+Supprimer un container : rm [IDCONTAINER]
+Voir l'activité d'un container : docker container logs [NAMECONTAINER]
+Entrer dans un container : docker exec  -it [IDCONTAINER] bin/bash/
+Voir la configuration d'une machine executant un container : docker container inspect [NAMECONTAINER]
+Gestionnaire des taches : docker stats --all
+Permet de connaitre la configuration reseau des conteneurs:docker network ls 
+Connaitre en details les machines dans un reseau : docker network inspect [namenetwork]
+
+
+# -------------------------------------------------------------------------------------------------------#
+
+Github command :
+
+Se deplacer dans la branche principale : git remote add origin [URLREPOSITORY] 
+Add dans le commit : git add*
+Commit = git commit -m 'Petite description'
+push = git push origin main
+
+
+Docker project
