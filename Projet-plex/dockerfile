@@ -35,3 +35,6 @@ WORKDIR /var/lib/plexmediaserver
 
 # Lance l'application plex
 CMD ["/usr/lib/plexmediaserver/Plex Media Server"]
+
+
+#https://hub.docker.com/repository/docker/guiguiso/plex-isitech
